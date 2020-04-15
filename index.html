@@ -2,6 +2,7 @@
 
   <head>
     <title>Earthbody Herbalism Inventory</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,615&display=swap" rel="stylesheet">
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="inventory.js"></script>
     <link rel="stylesheet" href="index.css">
@@ -13,13 +14,20 @@
 
       <h1>Erin's Earthbody Herbalism Inventory</h1>
 
-      <h2>Single Plant Alcohol Extracts</h2>
-      (Shake before using.)
+      <nav>
+        <a href="#single-plant-alcohol-extracts" onClick="clickNav()">Single Plant Alcohol Extracts</a>
+        <a href="#dry-herbs" onClick="clickNav()">Dry Herbs</a>
+        <a href="#infused-oils" onClick="clickNav()">Infused Oils</a>
+        <a href="#tonic-formulas" onClick="clickNav()">Tonic Formulas</a>
+        <a href="#bitters-cordials-elixirs" onClick="clickNav()">Bitters, Cordials, Elixirs</a>
+        <a href="#tea-blends" onClick="clickNav()">Tea Blends</a>
+      </nav>
+
       <br>
       <br>
       <table id="inventory">
-        <thead id="theadInventory">
 
+        <thead id="theadInventory">
         </thead>
         <tbody id="tbodyInventory">
         </tbody>

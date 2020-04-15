@@ -1,9 +1,14 @@
 /* Normalization */
 
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}a{background-color:transparent}a:active,a:hover{outline:0}small{font-size:80%}img{border:0}svg:not(:root){overflow:hidden}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+html{font-family:"Eb Garamond",serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}a{background-color:transparent}a:active,a:hover{outline:0}small{font-size:80%}img{border:0}svg:not(:root){overflow:hidden}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 body {
   padding: 2rem 1rem 3rem 1rem;
+
+}
+
+b {
+  font-variation-settings: 'wght' 800;
 }
 
 .container {
@@ -21,6 +26,8 @@ table th {
 
 table td {
   padding-right: 2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
 table tr {
@@ -30,4 +37,12 @@ table tr {
 table mark {
   color: #aaa;
   background: none;
+}
+
+nav a {
+  padding-right: 1rem;
+}
+
+nav a.current { 
+  background: #ffc;
 }
