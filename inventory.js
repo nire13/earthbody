@@ -67,7 +67,7 @@ function init(sheetName) {
     'apiKey': 'AIzaSyC4kcAuubA8aF1AEb06aHHV9_IOp4SkmP8',
     'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
   }).then(function() {
-    loadSheet("Single Plant Alcohol Extracts");
+    // loadSheet("Single Plant Alcohol Extracts");
   })
 };
 

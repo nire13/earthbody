@@ -1,10 +1,9 @@
 /* Normalization */
 
-html{font-family:"Eb Garamond",serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}a{background-color:transparent}a:active,a:hover{outline:0}small{font-size:80%}img{border:0}svg:not(:root){overflow:hidden}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+html{font-family: serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}a{background-color:transparent}a:active,a:hover{outline:0}small{font-size:80%}img{border:0}svg:not(:root){overflow:hidden}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 body {
   padding: 2rem 1rem 3rem 1rem;
-
 }
 
 b {
@@ -16,8 +15,11 @@ b {
   margin: 0 auto;
 }
 
+h1 {
+  font-family: "Homemade Apple";
+}
+
 table {
-  font-size: 80%;
 }
 
 table th {
@@ -45,4 +47,8 @@ nav a {
 
 nav a.current { 
   background: #ffc;
+}
+
+.line-tight {
+  max-width: 40em;
 }
