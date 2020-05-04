@@ -1,9 +1,11 @@
 /* Normalization */
 
-html{font-family: serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}a{background-color:transparent}a:active,a:hover{outline:0}small{font-size:80%}img{border:0}svg:not(:root){overflow:hidden}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+html{font-family: sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}a{background-color:transparent}a:active,a:hover{outline:0}small{font-size:80%}img{border:0}svg:not(:root){overflow:hidden}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 body {
   padding: 2rem 1rem 3rem 1rem;
+  color: #444;
+  background: #fff8f5;
 }
 
 b {
@@ -15,8 +17,25 @@ b {
   margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
 h1 {
   font-family: "Homemade Apple";
+  color: indianred;
+  font-size: 1.5rem;
+}
+
+h2, h3, h4 {
+  color: #405B41;
+  font-family: 'Alice', serif;
+  font-weight: 400;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
 }
 
 table {
@@ -50,5 +69,5 @@ nav a.current {
 }
 
 .line-tight {
-  max-width: 40em;
+  max-width: 45em;
 }
